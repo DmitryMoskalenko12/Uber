@@ -1,0 +1,139 @@
+html{
+  font-family: Roboto, sans-serif;
+}
+
+ header{
+height: 50.73px;
+background-color: #212121;
+}
+.main__ul{
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__ul .mainanchor{
+font-weight: 300;
+font-size: 15px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.main__ul .mainli{
+  border-right: 2px dashed black ;
+  padding-right: 30px;
+}
+.main__ul .mainli:last-child{
+  border: none;
+}
+.subheader{
+  position: relative;
+  min-height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+  
+}
+.subheader .wrapperlogo{
+  width: 285px;
+  margin-top: 17px;
+}
+.subheader .wrapperlogo .imglogo{
+  width: 100%;
+}
+.subheader .wrapperlogo .logotext{
+font-weight: 100;
+font-size: 13px;
+color: #FFFFFF;
+}
+.subheader .wrapcall{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.subheader .wrapcall .call{
+margin-top: 20px;
+font-weight: 300;
+font-size: 12px;
+text-align: right;
+color: #FFFFFF;
+border-top: 0;
+}
+.subheader  .wrapcall .logotel{
+font-weight: 400;
+font-size: 22px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+text-decoration: none;
+margin-bottom: 10px;
+
+}
+.subheader .logobut{
+width: 172px;
+height: 46px;
+margin-top: 19px;
+margin-bottom: 19px;
+background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+border-radius: 4px;
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+outline: none;
+border: none;
+cursor: pointer;
+}
+
+.ubermain{
+  position: absolute;
+  width: 100%;
+  min-height: 800px;
+  background: url(../img/uber_bg.png) center center/cover no-repeat;
+  z-index: -1;
+}
+.ubermain .uberpartners{
+margin-top: 120px;
+font-weight: 900;
+font-size: 30px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.ubermain .textwelk{
+margin-top: 0px;
+font-weight: 500;
+font-size: 30px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.ubermain .bigtextuber{
+width: 985px;
+margin: 0 auto;
+margin-top: 16px;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+.ubermain .bigbut{
+display: block;
+margin: 0 auto;
+margin-top: 115px;
+width: 259px;
+height: 63px;
+background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+border-radius: 4px;
+outline: none;
+border: none;
+cursor: pointer;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
