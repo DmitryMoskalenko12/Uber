@@ -323,3 +323,60 @@ transform: translateX(-50%);
 .mobile .round1:hover{
   background-color:red;
 }
+
+
+
+
+.car{
+  height: 899px;
+  padding-top: 57px;
+  padding-bottom: 137px;
+  background: url(../img/Темная\ подложка.png) center center/cover no-repeat;
+}
+.car .cartext1{
+width: 115px;
+height: 27px;
+background: #FFFFFF;
+padding-top: 5px;
+font-weight: 400;
+font-size: 11px;
+text-transform: uppercase;
+color: #070716;
+text-align: center;
+margin: 0 auto;
+}
+.car .cartext2{
+font-weight: 700;
+font-size: 38px;
+margin-top: 26px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+margin: 0 auto;
+}
+.car .cartext3{
+font-weight: 400;
+font-size: 17px;
+text-align: center;
+color: #FFFFFF;
+line-height: 2px;
+}
+.car .wrapperimg{
+  margin: 0 auto;
+  width: 759px;
+  margin-top: 54px;
+}
+.car .wrapperimg .imgcar{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+.car .cartext4{
+width: 327px;
+margin: 0 auto;
+font-weight: 300;
+font-size: 17px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
