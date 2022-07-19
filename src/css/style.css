@@ -209,3 +209,117 @@ border-radius: 100%;
   color: #202020;
 }
 
+
+
+.mobile{
+  padding-top: 46px;
+  padding-bottom: 80px;
+  background: url(../img/mobile_bg.png) center center/cover no-repeat;
+  min-height: 864px;
+}
+.mobile .mobiletext1{
+margin: 0 auto;
+padding-top: 4px;
+width: 115px;
+height: 27px;
+background: #000000;
+font-weight: 400;
+font-size: 11px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.mobile .mobiletext2{
+font-weight: 700;
+font-size: 38px;
+text-align: center;
+text-transform: uppercase;
+color: #222222;
+}
+.mobile .mobiletext3{
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  color: #222222;
+}
+.mobile .mt30{
+  margin-top: 30px;
+  margin-bottom: 19px;
+}
+.mobile .cart1{
+  width: 320px;
+  height: 280px;
+  background: url(../img/Карточка\ 1.png);
+}
+.mobile .carttext1{
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 88px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.mobile .cart2{
+  width: 320px;
+  height: 280px;
+  background: url(../img/Карточка\ 2.png);
+}
+.mobile .cart3{
+  width: 320px;
+  height: 280px;
+  background: url(../img/Карточка\ 3.png);
+}
+.mobile .cart4{
+  width: 320px;
+  height: 280px;
+  background: url(../img/Карточка\ 4.png);
+}
+.mobile .cart5{
+  width: 320px;
+  height: 280px;
+  background: url(../img/Карточка\ 5.png);
+}
+.mobile .cart6{
+  width: 320px;
+  height: 280px;
+  background: url(../img/Карточка\ 6.png);
+}
+.mobile .circle{
+  position: relative;
+}
+.mobile .round1{
+position: absolute;
+width: 29px;
+height: 29px;
+background: #000000;
+border-radius: 100%;
+bottom: 34px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.mobile .round1::after{
+  content: '';
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  height: 14px;
+  width: 2px;
+  margin-top: 8px;
+  background: #1EACC7;
+}
+.mobile .round1::before{
+  content: '';
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  right: 25%;
+  display: block;
+  height: 2px;
+  width: 14px;
+  background: #1EACC7;
+  transform: translateY(-50%);
+}
+.mobile .round1:hover{
+  background-color:red;
+}
