@@ -311,10 +311,21 @@ nav
       background-color: red
 
 .car
+  position: relative
   height: 899px
   padding-top: 57px
   padding-bottom: 137px
-  background: url(../img/Темная\ подложка.png) center (center / cover) no-repeat
+  background: url(../img/Подложка.png) center (center / cover) no-repeat 
+
+  .black
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    height: 502px
+    background: #070716
+    width: 100%
+    z-index: 1
 
   .cartext1
     width: 115px
@@ -327,15 +338,19 @@ nav
     color: #070716
     text-align: center
     margin: 0 auto
+    z-index: 2
+    position: relative
 
   .cartext2
-    font-weight: 700
+    font-weight: 70
     font-size: 38px
     margin-top: 26px
     text-align: center
     text-transform: uppercase
     color: #FFFFFF
     margin: 0 auto
+    z-index: 2
+    position: relative
 
   .cartext3
     font-weight: 400
@@ -343,11 +358,15 @@ nav
     text-align: center
     color: #FFFFFF
     line-height: 2px
+    z-index: 2
+    position: relative
 
   .wrapperimg
+    position: relative
     margin: 0 auto
     width: 759px
     margin-top: 54px
+    z-index: 2
 
     .imgcar
       display: block
@@ -361,4 +380,104 @@ nav
     font-size: 17px
     line-height: 24px
     text-align: center
+    color: #222222
+
+
+
+
+.require
+  min-height: 917px
+  padding-top: 66px
+  padding-bottom: 87px
+  &-text1
+    width: 115px
+    height: 27px
+    background: #000000 
+    font-weight: 400
+    font-size: 11px
+    text-align: center
+    text-transform: uppercase
     color: #FFFFFF
+    padding-top: 4px
+    margin: 0 auto
+  &-text2
+    font-weight: 700
+    font-size: 38px
+    text-align: center
+    text-transform: uppercase
+    color: #222222
+    margin-bottom: 37px
+  &-text3
+    font-weight: 400
+    font-size: 22px
+    color: #1CA8C3
+  &-textred
+    margin-top: 61px
+    font-weight: 400
+    font-size: 22px
+    color: #FF5656
+  .require-span1
+    text-transform: uppercase
+  &-wrapper
+    list-style-type: none
+  &-list
+    position: relative
+    font-weight: 300px
+    font-size: 17px
+    line-height: 24px
+    color: #222222
+    margin-top: 5px
+    margin-left: 15px
+  &-img
+    position: absolute
+    display: block
+    margin-left: -30px
+    margin-top: 3px
+  &-text4
+    font-weight: 300
+    font-size: 17px
+    color: #1CA8C3
+
+       
+.world
+  position: relative
+  min-height: 716px
+  padding-top: 48px
+  padding-bottom: 41px
+  background: url(../img/world_bg.png) center center/cover no-repeat
+  &-town
+    width: 76px
+    height: 24px
+    margin: 0 auto
+    padding-top: 3px
+    margin-bottom: 27px
+    background-color: #FFFFFF
+    font-weight: 400
+    font-size: 11px
+    text-align: center
+    text-transform: uppercase
+    color: #070716
+  &-allworld
+    font-weight: 700
+    font-size: 38px
+    text-align: center
+    text-transform: uppercase
+    color: #FFFFFF
+  &-townin
+    font-weight: 400
+    font-size: 17px
+    text-align: center
+    color: #FFFFFF
+  &-alltown
+    display: block
+    position: absolute
+    bottom: 51px
+    margin: 0 auto
+    left: 50%
+    transform: translateX(-50%)
+    font-weight: 400
+    font-size: 15px
+    text-align: center
+    text-transform: uppercase
+    color: #1FBAD6
+    cursor: pointer
