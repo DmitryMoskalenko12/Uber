@@ -3,8 +3,16 @@ html{
 }
 
  header{
+position: relative;
 height: 50.73px;
 background-color: #212121;
+}
+nav {
+  position: fixed; 
+  width: 100%; 
+  height: 50px;
+  background-color: #212121;
+  z-index: 2; 
 }
 .main__ul{
   padding: 13px 70px;
@@ -28,8 +36,10 @@ text-decoration: none;
   border: none;
 }
 .subheader{
-  position: relative;
-  min-height: 84px;
+  position: absolute;
+  top: 50px; 
+  width: 100%;
+  height: 84px;
   background-color: rgba(0, 0, 0, 0.6);
   
 }
@@ -45,27 +55,25 @@ font-weight: 100;
 font-size: 13px;
 color: #FFFFFF;
 }
-.subheader .wrapcall{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-.subheader .wrapcall .call{
+
+.subheader  .call{
 margin-top: 20px;
 font-weight: 300;
 font-size: 12px;
-text-align: right;
+text-align: end;
 color: #FFFFFF;
 border-top: 0;
 }
-.subheader  .wrapcall .logotel{
+.subheader .logotel{
+display: block;
 font-weight: 400;
 font-size: 22px;
-text-align: center;
+text-align: end;
 text-transform: uppercase;
 color: #FFFFFF;
 text-decoration: none;
 margin-bottom: 10px;
+line-height: 18px;
 
 }
 .subheader .logobut{
@@ -87,14 +95,13 @@ cursor: pointer;
 }
 
 .ubermain{
-  position: absolute;
-  width: 100%;
+  padding-top: 151px;
+  padding-bottom: 185px;
   min-height: 800px;
   background: url(../img/uber_bg.png) center center/cover no-repeat;
-  z-index: -1;
+  
 }
 .ubermain .uberpartners{
-margin-top: 120px;
 font-weight: 900;
 font-size: 30px;
 text-align: center;
@@ -137,3 +144,68 @@ text-transform: uppercase;
 color: #FFFFFF;
 text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
+
+
+.workwith{
+  min-height: 849px;
+  padding-top: 18px;
+  padding-bottom: 64px;
+  background: #FFFFFF center center/cover no-repeat;
+
+}
+.workwith .pre{
+margin: 0 auto;
+padding-top: 3px;
+width: 113px;
+height: 24px;
+background-color: black;
+text-align: center;
+font-weight: 400;
+font-size: 11px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.workwith .bigtitle{
+font-weight: 700;
+font-size: 38px;
+margin-top: 33px;
+margin-bottom: 32px;
+text-align: center;
+text-transform: uppercase;
+color: #222222;
+}
+.workwith .workwrapper{
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  width: 558px;
+  margin-bottom: 26px;
+}
+.workwith .nomb:last-child{
+  margin-bottom: 0px;
+}
+.workwith .workwrapper .workround{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 116px;
+height: 116px;
+background: #1EACC7;
+border-radius: 100%;
+}
+.workwith .worktext{
+  width: 371px;
+}
+.workwith .worktext .text1{
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #1EACC7;
+}
+.workwith .worktext .text2{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #202020;
+}
+
