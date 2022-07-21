@@ -1,52 +1,42 @@
 .require
-  min-height: 917px
-  padding-top: 66px
-  padding-bottom: 87px
-  &-text1
-    width: 115px
-    height: 27px
-    background: #000000 
-    font-weight: 400
-    font-size: 11px
-    text-align: center
-    text-transform: uppercase
-    color: #FFFFFF
-    padding-top: 4px
-    margin: 0 auto
-  &-text2
-    font-weight: 700
-    font-size: 38px
-    text-align: center
-    text-transform: uppercase
-    color: #222222
-    margin-bottom: 37px
-  &-text3
-    font-weight: 400
-    font-size: 22px
-    color: #1CA8C3
-  &-textred
-    margin-top: 61px
-    font-weight: 400
-    font-size: 22px
-    color: #FF5656
-  .require-span1
-    text-transform: uppercase
-  &-wrapper
-    list-style-type: none
-  &-list
-    position: relative
-    font-weight: 300px
-    font-size: 17px
-    line-height: 24px
-    color: #222222
-    margin-top: 5px
-    margin-left: 15px
-  &-img
-    position: absolute
-    display: block
-    margin-left: -30px
-    margin-top: 3px
-  &-text4
-    font-weight: 300
-    font-size: 17px
-    color: #1CA8C3
+	padding: 68px 0 84px 0
+	&_block 
+		margin: 33px 0
+		&_nmb
+			margin-bottom: 0px
+	&_title 
+		color: #1ca8c3
+		font-size: 22px
+		font-weight: 400
+	&_list 
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 22px
+		li 
+			position: relative
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px
+			margin-bottom: 10px
+			&:before 
+				content: ''
+				display: block 
+				position: absolute
+				left: -32px
+				top: 3px
+				width: 21px 
+				height: 20px
+				background: url('../icons/check_blue 1.png') center (center / cover) no-repeat
+	&_descr 
+		margin-top: 25px
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px
+		color: #1ca8c3
+	.warning 
+		.require_title
+			color: $second-color
+		.require_list
+			li 
+				&:before
+					background: url('../icons/check_red 1.png') center (center / cover) no-repeat
