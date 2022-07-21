@@ -42,10 +42,6 @@
         width: 33% 
     &-social
       position: absolute
-      display: flex
-      margin-left: 23px
-      justify-content: space-between
-      align-items: center
       bottom: -190px
       right: -240px
       width: 156px
@@ -56,5 +52,116 @@
       position: absolute
       bottom: -140px
       left: -320px
-   
 
+@media(max-width: 991px)
+  .gamburger
+    position: absolute
+    display: block
+    width:28px
+    height: 10px 
+    right: 0
+    top: 50%
+    margin-right: 10px
+    transform: translateY(-50%)
+    cursor: pointer
+  .gamburger > span
+      margin: 0 auto
+      margin-top: 2px
+      display: block
+      width: 28px
+      height: 2px
+      background-color: white
+  .active:hover
+    :nth-child(1)
+      margin: 0
+      transform: rotate(45deg)
+      transition: 0.5s all
+    :nth-child(2)
+      display: none
+    :nth-child(3)
+      transition: 0.5s all
+      margin: 0
+      transform: rotate(-45deg)  
+
+  .main__ul
+    position: fixed
+    margin: 0
+    width: 400px
+    height: 100vh
+    list-style-type: none
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    left: 0
+    top: 0
+    background-color: rgba(0, 0, 0,0.6 )
+    transform: translateX(0%)
+    
+    .mainanchor
+      font-weight: 300
+      font-size: 25px
+      color: #FFFFFF
+      text-decoration: none
+    .mainli
+      text-align: center
+      margin-top: 10px
+      border-right: none
+      padding-right: 0px
+  .activemenu
+    transform: translateX(-100%)
+  .subheader
+    position: absolute
+    top: 50px
+    width: 100%
+    height: 84px
+    background-color: rgba(0, 0, 0, 0.6)
+    .wrapperlogo
+      width: 250px
+      margin-top: 17px
+      margin-left: -70px
+    .hidden
+      display: none 
+    .novisible
+      display: block   
+      font-weight: 400
+      font-size: 16px
+      text-align: end
+      text-transform: uppercase
+      color: #FFFFFF
+      text-decoration: none
+    .logobut
+      width: 172px
+      height: 46px
+      margin-top: 0px
+      margin-bottom: 19px
+      margin-left: 250px
+       
+      
+  .ubermain
+    .uberpartners
+      font-size: 40px
+    .bigtextuber
+      width: 685px
+      margin-left: 25px
+    .bigbut
+      margin: 50 205px
+
+
+
+
+  .workwith  
+    .workwrapper
+      display: flex
+      margin-left: 50px
+      justify-content: space-around
+      align-items: center
+      width: 558px
+      margin-bottom: 26px
+    .nomb:last-child
+      margin-bottom: 46px
+  
+
+  .mobile
+    .mt30
+      margin-top: 0

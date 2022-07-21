@@ -13,8 +13,13 @@
   <body>
 <header>
   <nav>
+    <div class="gamburger active">
+     <span></span>
+     <span></span>
+     <span></span>
+    </div>
     <div class="container">
-      <ul class="main__ul">
+      <ul class="main__ul activemenu">
         <li class="mainli"><a href="" class="mainanchor">Главная</a></li>
         <li class="mainli">
           <a href="" class="mainanchor">Со своим автомобилем</a>
@@ -33,19 +38,20 @@
   <div class="subheader">
     <div class="container">
       <div class="row">
-        <div class="col-4 offset-1">
+        <div class="col-4 offset-1 col-md-4 col-lg-4 " >
           <div class="wrapperlogo">
             <img src="img/Uber.png" alt="uber" class="imglogo" />
             <h2 class="logotext">Официальный партнер Uber в Николаеве</h2>
           </div>
         </div>
 
-        <div class="col-2 offset-2 col-lg-3  ">
+        <div class=" hidden col-2 offset-2 col-md-3 col-lg-3  ">
           <div class="call">Звоните нам ежедневно</div>
           <a class="logotel" href="tel:84957970988">8 495 797 09 88</a>
         </div>
 
-        <div class="col-2">
+        <div class="col-2 col-md-7 col-lg-2">
+          <a class="logotel novisible" href="tel:84957970988">8 495 797 09 88</a>
           <button class="logobut">Заказать звонок</button>
         </div>
       </div>
@@ -81,7 +87,7 @@
     <div class="bigtitle">8 причин начать работать с нами</div>
     <div class="row">
 
-<div class="col-6">
+<div class="col-6 ">
   <div class="workwrapper">
     <div class="workround">
       <img src="icons/nal.png" alt="nal" class="workimg" />
@@ -100,7 +106,7 @@
   </div>
 </div>
 
-<div class="col-6">
+<div class="col-6 col-md-12 col-lg-6">
   <div class="workwrapper">
     <div class="workround">
       <img src="icons/table.png" alt="table" class="workimg" />
@@ -119,7 +125,7 @@
   </div>
 </div>
 
-<div class="col-6">
+<div class="col-6 col-md-12 col-lg-6">
   <div class="workwrapper">
     <div class="workround">
       <img src="icons/many.png" alt="many" class="workimg" />
@@ -138,7 +144,7 @@
   </div>
 </div>
 
-<div class="col-6">
+<div class="col-6 col-md-12 col-lg-6">
   <div class="workwrapper">
     <div class="workround">
       <img src="icons/twentyfive.png" alt="twentyfive" class="workimg" />
@@ -157,7 +163,7 @@
   </div>
 </div>
 
-<div class="col-6">
+<div class="col-6 col-md-12 col-lg-6">
   <div class="workwrapper">
     <div class="workround">
       <img src="icons/key.png" alt="key" class="workimg" />
@@ -176,7 +182,7 @@
   </div>
 </div>
 
-<div class="col-6">
+<div class="col-6 col-md-12 col-lg-6">
   <div class="workwrapper">
     <div class="workround">
       <img src="icons/location.png" alt="location" class="workimg" />
@@ -195,7 +201,7 @@
   </div>
 </div>
 
-<div class="col-6">
+<div class="col-6 col-md-12 col-lg-6">
   <div class="workwrapper nomb">
     <div class="workround">
       <img src="icons/fhoon.png" alt="fhoon" class="workimg" />
@@ -211,7 +217,7 @@
   </div>
 </div>
 
-<div class="col-6">
+<div class="col-6 col-md-12 col-lg-6">
   <div class="workwrapper nomb">
     <div class="workround">
       <img src="icons/car.png" alt="car" class="workimg" />
@@ -239,42 +245,42 @@
   
 <div class="row">
   
-  <div class="col-4">
+  <div class="col-4 col-md-6 col-lg-4">
     <div class="cart1 circle mt30">
       <div class="carttext1">оформление заказа одним касанием</div>
       <div class="round1"></div>
     </div>
   </div>
 
-  <div class="col-4">
+  <div class="col-4 col-md-6 col-lg-4">
     <div class="cart2 circle mt30">
       <div class="carttext1">надежная подача</div>
       <div class="round1"></div>
     </div>
   </div>
 
-  <div class="col-4">
+  <div class="col-4 col-md-6 col-lg-4">
     <div class="cart3 circle mt30">
       <div class="carttext1">прозрачные цены</div>
       <div class="round1"></div>
     </div>
   </div>
 
-  <div class="col-4">
+  <div class="col-4 col-md-6 col-lg-4">
     <div class="cart4 circle">
       <div class="carttext1">безналичная оплата</div>
       <div class="round1"></div>
     </div>
   </div>
 
-  <div class="col-4">
+  <div class="col-4 col-md-6 col-lg-4">
     <div class="cart5 circle">
       <div class="carttext1">обратная связь</div>
       <div class="round1"></div>
     </div>
   </div>
 
-  <div class="col-4">
+  <div class="col-4 col-md-6 col-lg-4">
     <div class="cart6 circle">
       <div class="carttext1">разделить стоимость поездки</div>
       <div class="round1"></div>
@@ -416,5 +422,6 @@
   
   </div>
 </footer>
+<script src="js/js.js"></script>
 </body>
 </html>
